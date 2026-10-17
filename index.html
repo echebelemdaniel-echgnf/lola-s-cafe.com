@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lola’s Café | Premium Café Lifestyle, Abraka</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+<meta name="description" content="Lola’s Café in Ekrejeta, Abraka, Delta: gourmet burgers, pizza, shawarma, wings and signature drinks. Order on WhatsApp. Open 9AM–8PM.">
+<meta name="theme-color" content="#c2456b">
+<meta property="og:title" content="Lola’s Café | Premium Café Lifestyle">
+<meta property="og:description" content="Burgers, pizza, shawarma, wings and signature drinks in Abraka. Order online on WhatsApp.">
+<meta property="og:image" content="images/logo.png">
+<link rel="icon" href="images/favicon.png">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<header><div class="w nav"><img src="images/logo.png" alt="Lola’s Café logo"><b>Lola’s Café</b><a href="#menu">Menu</a><a href="#visit">Visit</a></div></header>
+<div class="hero w"><img src="images/logo.png" alt="Lola’s Café">
+<h1>Premium café lifestyle,<br><i>made with love</i></h1>
+<p>Gourmet burgers, pizza, shawarma, wings and signature drinks, freshly made in Abraka, Delta.</p>
+<div class="btns"><a class="btn" href="#menu">Order now</a><a class="btn o" href="tel:+2349015704346">Call us</a></div>
+<div class="pills"><span id="open">🕘 9AM – 8PM daily</span><span>📍 Ekrejeta, Abraka</span><span>🧋 Signature drinks</span></div></div>
+<section id="menu"><div class="w"><h2>Our Menu</h2><p class="sub">Pick your favourites, add to cart and send your order on WhatsApp.</p>
+<div class="tabs" id="tabs"></div><div class="grid" id="grid"></div></div></section>
+<section id="visit"><div class="w"><div class="box"><h2>Come say hi 💕</h2>
+<p>Ekrejeta, Abraka, Delta State<br>Open daily, 9AM – 8PM</p>
+<p><a href="tel:+2349015704346">0901 570 4346</a> · <a href="tel:+2349162509367">0916 250 9367</a></p>
+<p>Follow us: <a href="https://www.tiktok.com/@lolascafe.ng" target="_blank" rel="noopener">TikTok @lolascafe.ng</a> · <a href="https://www.instagram.com/lolascafe.ng" target="_blank" rel="noopener">Instagram @lolascafe.ng</a></p></div></div></section>
+<footer>© 2026 Lola’s Café · Ekrejeta, Abraka</footer>
+<a class="wa" id="wa" href="https://wa.me/2349015704346" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">💬</a>
+<button id="bar" onclick="op(1)"><span id="bc"></span><span id="bt"></span></button>
+<div id="pan" onclick="if(event.target===this)op(0)"><div>
+<h2 style="text-align:left;font-size:24px">Your order</h2><div id="cl"></div>
+<div class="tot"><span>Total</span><span id="ct"></span></div>
+<div class="sw"><label><input type="radio" name="m" value="Pickup" checked>Pickup</label><label><input type="radio" name="m" value="Delivery">Delivery</label></div>
+<input id="nm" placeholder="Your name"><input id="ph" placeholder="Phone number" inputmode="tel"><textarea id="ad" rows="2" placeholder="Delivery address or notes"></textarea>
+<div class="btns"><button class="btn" onclick="send()">Send order on WhatsApp</button></div>
+<p class="sub" style="margin-top:10px">Delivery fee and payment are confirmed on WhatsApp.</p></div></div>
+<script src="js/script.js"></script></body></html>
